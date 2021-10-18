@@ -4,7 +4,7 @@
     python-fire (pip install fire)
 
 
-########## You have to check the python version  ##########
+########## You need to check the python version  ##########
 
     python3 -V
 

@@ -1,0 +1,2783 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rodrigobernardo/ontologies/Home_Lab"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rodrigobernardo/ontologies/Home_Lab">
+    <Prefix name="" IRI="http://www.semanticweb.org/rodrigobernardo/ontologies/Home_Lab"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="#Autor"/>
+        <Literal xml:lang="en">Rodrigo Bernardo</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This is the Home_Lab OWL implementation. It only includes  the taxonomy of concepts and relations, with some few axioms reggarding disjointness, property characteristics and property ranges/domains.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actuators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_conditionair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anglepoise_Lamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arm_robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armchair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autonomous_Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ballroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedside_table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blinds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bookshelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bureau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carpet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cellar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chest_of_drawer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloakroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee_maker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conservatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corridor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CupBoard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curtains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cushion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dining_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dishwasher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Display_cabinet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dock_Charge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Door_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drawing_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dressing_table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fireplace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flower_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_mixer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frying_pan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Furniture_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Games_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage_Laser_Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guest_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hairdryer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hat_stand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hifi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hifi_stand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_lab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humidity_Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ironing_Board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kettle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_Switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liquidiser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microwave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mirror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motion_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Autonomous_Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_mobile_robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pantry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parlour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Picture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pillow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PysicalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Razor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saucepan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Settee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shaving_foam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sheet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sieve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoke_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sofa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structural_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Table_lamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teapot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Television"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tin_opener"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toilet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toilet_brush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toilet_rool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toothbrush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Towel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tv_cabinet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Types_Devices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utility_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wardrobe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warm_and_Cool_Mist_Humidifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Leak_Detector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wing_chair"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LeftOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LocatedAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RightOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TypicalLocationtOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#agentProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belowOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGoingTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locationProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#onTopOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Connected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StateOfdoor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#agentDataProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWOrientation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasXOrientation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasXPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYOrientation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasZOrientation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasZPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isBusy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRobotMoving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basin_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bed_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BedsideTable_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cupboard_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cupboard_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cupboard_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dock_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Door_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDMIND_robot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shower_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Table_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Table_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Table_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tap_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toilet_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tv_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UR3_robot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#window"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Autor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actuators"/>
+        <Class IRI="#Types_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_conditionair"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_conditionair"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anglepoise_Lamp"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anglepoise_Lamp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arm_robot"/>
+        <Class IRI="#Not_mobile_robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armchair"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armchair"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attic"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autonomous_Robot"/>
+        <Class IRI="#Mobile_robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ballroom"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basin"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Cloakroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bath"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bath"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Cloakroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bathroom"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bed"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedroom"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedside_table"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedside_table"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blinds"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blinds"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Attic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bookshelf"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bookshelf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brush"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brush"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bureau"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bureau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carpet"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carpet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceiling"/>
+        <Class IRI="#Structural_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cellar"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chair"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chair"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chest_of_drawer"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chest_of_drawer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bedroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cloakroom"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clock"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clock"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothes"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_maker"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee_maker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comb"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conservatory"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooker"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corridor"/>
+        <Class IRI="#Indoor_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cot"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Bedroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CupBoard"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CupBoard"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curtains"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curtains"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cushion"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cushion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Living_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dining_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dishwasher"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dishwasher"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Display_cabinet"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Display_cabinet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Living_room"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dock_Charge"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dock_Charge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door"/>
+        <Class IRI="#Structural_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door_Sensor"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drawing_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dressing_table"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dressing_table"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Home_lab"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan"/>
+        <Class IRI="#Actuators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fireplace"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fireplace"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Structural_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flower_Power"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_mixer"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_mixer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fridge"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fridge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frying_pan"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frying_pan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Furniture_Objects"/>
+        <Class IRI="#Indoor_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage_Laser_Park"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hairdryer"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hairdryer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Cloakroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hall"/>
+        <Class IRI="#Indoor_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hat_stand"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hat_stand"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hifi"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hifi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hifi_stand"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hifi_stand"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humidity_Monitoring"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor_Objects"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor_environment"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Object"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ironing_Board"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ironing_Board"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Utility_room"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kettle"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kettle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kitchen"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knife"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knife"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lamp"/>
+        <Class IRI="#Actuators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_Switch"/>
+        <Class IRI="#Actuators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquidiser"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquidiser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microphone"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microwave"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microwave"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mirror"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mirror"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_robot"/>
+        <Class IRI="#Robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motion_Sensor"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Autonomous_Robot"/>
+        <Class IRI="#Mobile_robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_mobile_robot"/>
+        <Class IRI="#Robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_mobile_robot"/>
+        <ObjectComplementOf>
+            <Class IRI="#Mobile_robot"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Office"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor_Objects"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor_environment"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pantry"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parlour"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picture"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pillow"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pillow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PysicalAgent"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razor"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PysicalAgent"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#isIn"/>
+                <Class IRI="#Rooms"/>
+            </ObjectExactCardinality>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#isGoingTo"/>
+                <Class IRI="#Rooms"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rooms"/>
+        <Class IRI="#Indoor_environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saucepan"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saucepan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensors"/>
+        <Class IRI="#Types_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Settee"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Settee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Living_room"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shaving_foam"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shaving_foam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Cloakroom"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sheet"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sheet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sieve"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sieve"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoke_Sensor"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sofa"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sofa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatula"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speakers"/>
+        <Class IRI="#Actuators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structural_Objects"/>
+        <Class IRI="#Indoor_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table_lamp"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table_lamp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cellar"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tap"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tap"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Kitchen"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teapot"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teapot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Television"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Television"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Monitoring"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tin_opener"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tin_opener"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet_brush"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet_brush"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet_rool"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet_rool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toothbrush"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toothbrush"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Towel"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Towel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Bathroom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tv_cabinet"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tv_cabinet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Living_room"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Types_Devices"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utility_room"/>
+        <Class IRI="#Rooms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wall"/>
+        <Class IRI="#Structural_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wardrobe"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wardrobe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warm_and_Cool_Mist_Humidifier"/>
+        <Class IRI="#Actuators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Leak_Detector"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather_Station"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisk"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <Class IRI="#Kitchen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window"/>
+        <Class IRI="#Structural_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Attic"/>
+                <Class IRI="#Ballroom"/>
+                <Class IRI="#Bathroom"/>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Box_room"/>
+                <Class IRI="#Cloakroom"/>
+                <Class IRI="#Conservatory"/>
+                <Class IRI="#Dining_room"/>
+                <Class IRI="#Drawing_room"/>
+                <Class IRI="#Games_room"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Hall"/>
+                <Class IRI="#Kitchen"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+                <Class IRI="#Utility_room"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window_Sensor"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wing_chair"/>
+        <Class IRI="#Furniture_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wing_chair"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TypicalLocationtOf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Bedroom"/>
+                <Class IRI="#Guest_room"/>
+                <Class IRI="#Library"/>
+                <Class IRI="#Living_room"/>
+                <Class IRI="#Music_room"/>
+                <Class IRI="#Office"/>
+                <Class IRI="#Parlour"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Actuators"/>
+        <Class IRI="#Sensors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Autonomous_Robot"/>
+        <Class IRI="#Non_Autonomous_Robot"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Indoor_Objects"/>
+        <Class IRI="#Outdoor_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mobile_robot"/>
+        <Class IRI="#Not_mobile_robot"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Basin"/>
+        <NamedIndividual IRI="#Basin_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bathroom"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bedroom"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bed"/>
+        <NamedIndividual IRI="#Bed_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bedside_table"/>
+        <NamedIndividual IRI="#BedsideTable_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chair"/>
+        <NamedIndividual IRI="#Chair_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chair"/>
+        <NamedIndividual IRI="#Chair_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chair"/>
+        <NamedIndividual IRI="#Chair_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chair"/>
+        <NamedIndividual IRI="#Chair_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chair"/>
+        <NamedIndividual IRI="#Chair_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CupBoard"/>
+        <NamedIndividual IRI="#Cupboard_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CupBoard"/>
+        <NamedIndividual IRI="#Cupboard_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CupBoard"/>
+        <NamedIndividual IRI="#Cupboard_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tv_cabinet"/>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dock_Charge"/>
+        <NamedIndividual IRI="#Dock_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Door"/>
+        <NamedIndividual IRI="#Door_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Door_Sensor"/>
+        <NamedIndividual IRI="#Door_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autonomous_Robot"/>
+        <NamedIndividual IRI="#IDMIND_robot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Living_room"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bath"/>
+        <NamedIndividual IRI="#Shower_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#Table_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#Table_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#Table_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tap"/>
+        <NamedIndividual IRI="#Tap_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toilet"/>
+        <NamedIndividual IRI="#Toilet_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Television"/>
+        <NamedIndividual IRI="#Tv_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arm_robot"/>
+        <NamedIndividual IRI="#UR3_robot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Window"/>
+        <NamedIndividual IRI="#window"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Basin_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Basin_1"/>
+        <NamedIndividual IRI="#Toilet_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Bed_1"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeftOf"/>
+        <NamedIndividual IRI="#BedsideTable_1"/>
+        <NamedIndividual IRI="#Bed_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#BedsideTable_1"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Chair_1"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Chair_1"/>
+        <NamedIndividual IRI="#Bed_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Chair_2"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeftOf"/>
+        <NamedIndividual IRI="#Chair_3"/>
+        <NamedIndividual IRI="#Chair_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Chair_3"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Chair_3"/>
+        <NamedIndividual IRI="#Table_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeftOf"/>
+        <NamedIndividual IRI="#Chair_4"/>
+        <NamedIndividual IRI="#Table_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Chair_4"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Chair_5"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Chair_5"/>
+        <NamedIndividual IRI="#Chair_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeftOf"/>
+        <NamedIndividual IRI="#Cupboard_1"/>
+        <NamedIndividual IRI="#window"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Cupboard_1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Cupboard_1"/>
+        <NamedIndividual IRI="#Dock_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Cupboard_2"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Cupboard_2"/>
+        <NamedIndividual IRI="#window"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Cupboard_3"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Cupboard_3"/>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Cupboard_3"/>
+        <NamedIndividual IRI="#Tv_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Dock_1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Door_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+        <NamedIndividual IRI="#BedRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeftOf"/>
+        <NamedIndividual IRI="#Shower_1"/>
+        <NamedIndividual IRI="#Toilet_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Shower_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Table_1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Table_2"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Table_2"/>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RightOf"/>
+        <NamedIndividual IRI="#Table_2"/>
+        <NamedIndividual IRI="#Tv_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Table_3"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Tap_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#onTopOf"/>
+        <NamedIndividual IRI="#Tap_1"/>
+        <NamedIndividual IRI="#Basin_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Toilet_1"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#Tv_1"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#onTopOf"/>
+        <NamedIndividual IRI="#Tv_1"/>
+        <NamedIndividual IRI="#Desk_Tv1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#onTopOf"/>
+        <NamedIndividual IRI="#UR3_robot"/>
+        <NamedIndividual IRI="#IDMIND_robot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <NamedIndividual IRI="#window"/>
+        <NamedIndividual IRI="#LivingRoom_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#BathRoom_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Bed_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Chair_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Chair_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Chair_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Chair_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isBusy"/>
+        <NamedIndividual IRI="#Dock_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StateOfdoor"/>
+        <NamedIndividual IRI="#Door_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#IDMIND_robot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRobotMoving"/>
+        <NamedIndividual IRI="#IDMIND_robot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Connected"/>
+        <NamedIndividual IRI="#Tv_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRobotMoving"/>
+        <NamedIndividual IRI="#UR3_robot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#LeftOf"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RightOf"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TypicalLocationtOf"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belowOf"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty IRI="#locationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <ObjectProperty IRI="#locationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <ObjectProperty IRI="#agentProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isIn"/>
+        <ObjectProperty IRI="#agentProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#onTopOf"/>
+        <ObjectProperty IRI="#ObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#LeftOf"/>
+        <ObjectProperty IRI="#RightOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belowOf"/>
+        <ObjectProperty IRI="#onTopOf"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LeftOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RightOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TypicalLocationtOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belowOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <Class IRI="#PysicalAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#PysicalAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#onTopOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeftOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RightOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TypicalLocationtOf"/>
+        <Class IRI="#Indoor_environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belowOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#onTopOf"/>
+        <Class IRI="#Indoor_Objects"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#LeftOf"/>
+        <ObjectProperty IRI="#RightOf"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#belowOf"/>
+        <ObjectProperty IRI="#onTopOf"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Connected"/>
+        <DataProperty IRI="#ObjectProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#StateOfdoor"/>
+        <DataProperty IRI="#ObjectProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLocation"/>
+        <DataProperty IRI="#agentDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWOrientation"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasXOrientation"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasXPosition"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasYOrientation"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasYPosition"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasZOrientation"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasZPosition"/>
+        <DataProperty IRI="#hasLocation"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isBusy"/>
+        <DataProperty IRI="#ObjectProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isRobotMoving"/>
+        <DataProperty IRI="#agentDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Connected"/>
+        <Class IRI="#Indoor_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#StateOfdoor"/>
+        <Class IRI="#Door_Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLocation"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWOrientation"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXOrientation"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXPosition"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYOrientation"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYPosition"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasZOrientation"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasZPosition"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isBusy"/>
+        <Class IRI="#Indoor_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRobotMoving"/>
+        <Class IRI="#Robot"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Connected"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#StateOfdoor"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLocation"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWOrientation"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXOrientation"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYOrientation"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasZOrientation"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasZPosition"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isBusy"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRobotMoving"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attic</IRI>
+        <Literal xml:lang="en">People store things in the attic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ballroom</IRI>
+        <Literal>A room in stately homes where rich people dance and concerts are held.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Box_room</IRI>
+        <Literal>A small room used for storage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cellar</IRI>
+        <Literal>Underneath the house</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cloakroom</IRI>
+        <Literal>A small room for a downstairs toilet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conservatory</IRI>
+        <Literal>A greenhouse attached to a house as a sun room, or for the display of plants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dining_room</IRI>
+        <Literal>A room where people eat (see eating at home).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drawing_room</IRI>
+        <Literal>A room in stately homes where posh people entertain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Games_room</IRI>
+        <Literal xml:lang="en">A room in large houses where games are played.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Guest_room</IRI>
+        <Literal xml:lang="en">A room where guests sleep and clutter is stored.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hall</IRI>
+        <Literal xml:lang="en">The entrance passage to a house.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IDMIND_robot</IRI>
+        <Literal>Base of robot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Library</IRI>
+        <Literal xml:lang="en">A room where books are kept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Living_room</IRI>
+        <Literal xml:lang="en">Yet another name for sitting room / lounge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Music_room</IRI>
+        <Literal xml:lang="en">A room where people play music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Office</IRI>
+        <Literal xml:lang="en">A room where people work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pantry</IRI>
+        <Literal xml:lang="en">A small room used to store kitchen and dining items.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parlour</IRI>
+        <Literal xml:lang="en">Old fashioned word for living room.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UR3_robot</IRI>
+        <Literal>UR3 Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Utility_room</IRI>
+        <Literal xml:lang="en">A room where appliances such as washing machines are used.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <Literal>D</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

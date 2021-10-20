@@ -26,11 +26,19 @@ def init(filename):
     user_predicates = input("Predicates (separated by space): ")
     user_predicates = sanitise(user_predicates)
     predicates = [pred.lower() for pred in user_predicates.split(" ")]
-  
-   # Functions
-    user_functions = input("Functions (separated by space): ")
-    user_functions = sanitise(user_functions)
-    functions = [function.lower() for function in user_functions.split(" ")]
+    
+    answer = None 
+    while answer not in ("y", "n"): 
+        answer = input(" You want to use functions? (y/n)") 
+        if answer == "y": 
+            # Functions
+            user_functions = input("Functions (separated by space): ")
+            user_functions = sanitise(user_functions)
+            functions = [function.lower() for function in user_functions.split(" ")]
+        elif answer == "n": 
+            answer = "n" 
+        else: 
+        	print("Please enter y or n.") 
 
     # Actions
     user_actions = input("Actions (separated by space): ")
@@ -58,16 +66,8 @@ f"""\
         the respective types in the decorator\"\"\"
 """ for predicate in predicates])
 
-    section_functions = "\n".join([\
-
-f"""\
-    @functions(...)
-    def {functions}(self):
-        \"\"\"Complete the method signature and specify
-        the respective types in the decorator\"\"\"
-""" for functions in functions])
-
     section_action = "\n".join([\
+
 f"""\
     @action(...)
     def {action}(self):
@@ -107,10 +107,29 @@ class {class_name}Problem({class_name}Domain):
         return None
 """
 
-    template = domain_header + "\n" + section_types + "\n" + \
+
+
+    if answer == "y": 
+
+        section_functions = "\n".join([\
+
+f"""\
+    @functions(...)
+    def {functions}(self):
+        \"\"\"Complete the method signature and specify
+        the respective types in the decorator\"\"\"
+    """ for functions in functions])
+
+        template = domain_header + "\n" + section_types + "\n" + \
         section_predicate + "\n" + section_functions + "\n" + section_action + \
         "\n" + problem_header + "\n" + section_object + \
         "\n" + section_init + "\n" + section_goal
+    else:
+        template = domain_header + "\n" + section_types + "\n" + \
+        section_predicate + "\n" + section_action + \
+        "\n" + problem_header + "\n" + section_object + \
+        "\n" + section_init + "\n" + section_goal
+    
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(template)
